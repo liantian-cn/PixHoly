@@ -1,0 +1,9 @@
+{
+  "Lua.diagnostics.globals": [
+    "SlashCmdList",
+    "ReloadUI",
+    "COLOR",
+    "StaticPopupDialogs",
+    "StaticPopup_Show"
+  ]
+}

@@ -1,0 +1,3 @@
+-- 第7格显示玩家是否组队；队伍变化统一刷新。
+local _, addonTable = ...
+addonTable.UnitCells.Boolean(7, { "player" }, function() return IsInGroup() end)
