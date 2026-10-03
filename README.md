@@ -24,7 +24,7 @@ PixHoly 是运行在 Windows 上的神圣圣骑士像素循环工具，针对烈
 git clone https://github.com/liantian-cn/PixHoly.git
 cd PixHoly
 uv sync --python 3.13
-uv run python -m pix.main
+uv run pythonw -m pix
 ```
 
 在桌面界面中选择游戏进程，点击**拷贝插件**，将插件安装到 `Interface/AddOns/PixHoly/`，然后在游戏内 `/reload`。
